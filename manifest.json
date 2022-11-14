@@ -1,0 +1,27 @@
+{
+  "name": "Time",
+  "version": "1.0",
+  "description": "A basic time module for the getting the current time and date. This module is a part of the another project called the 'theTimeR'.",
+  "manifest_version": 3,
+  "author": "pratik kabade",
+
+  "icons": {
+    "128": "images/logo.png"
+  },
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Click Me"
+  },
+
+  "commands": {
+    "favorite-command": {
+      "suggested_key": {
+        "default": "Alt + T"
+      },
+      "description": "Open Page",
+
+      "global": true
+    }
+  }
+}
